@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+}
+
+
+.image{
+  background-image: url("Fertilizer01 (1).jpeg");
+  background-color:floralwhite;
+  width: 700px;  
+  height: 750px;  
+  background-position: right;
+  object-fit: cover; 
+  background-repeat: repeat;
+}
+
+.text {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  font-family:Georgia;
+  transform: translate(-50%, -50%);
+  font-weight: 900;
+  color:black;
+}
+.text1 {
+  text-align: left;
+  position: absolute;
+  font-family:Georgia;
+  left: 70%;
+  font-weight: 800;
+  transform: translate(-50%, -50%);
+  color:black;
+}
+.Login {
+  margin-top: 30px;
+  margin-left: 250px;
+}
+.button{
+  border: 3px solid white;
+  padding:10px 50px;
+  color:white;
+  font-family:Georgia; 
+  font-size: 22px;
+  text-decoration:white;
+  background-color:black;
+}
+.Login a:hover{
+background-color:palevioletred;
+
+}

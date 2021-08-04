@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+
+.image {
+  background-image: url("rouge.jpg");
+  background-color:floralwhite;
+  height: 770px;
+  width: 750px;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.text{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    font-family:Cursive;
+    transform: translate(-50%, -50%);
+    font-weight: 900;
+    color:black;
+}
+.text2{
+    text-align: left;
+    left: 70%;
+    font-family:Segoe UI;
+    font-weight: 900;
+    color:black;
+}
+.GetStarted {
+    margin-top: 30px;
+    margin-left: 540px;
+}
+.button{
+    border: 3px solid white;
+    padding:10px 50px;
+    color:white;
+    font-family:"Georgia", "sans-serif"; 
+    font-size: 22px;
+    text-decoration:white;
+    background-color:black;
+}
+.GetStarted a:hover{
+  background-color:yellow;
+
+}

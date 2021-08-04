@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+.image {
+    border-radius: 50%;
+    background-position: center;
+
+}
+
+
+    
+.text{
+        text-align: center;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        font-family:cursive;
+        transform: translate(-50%, -50%);
+        color:black;
+      }
